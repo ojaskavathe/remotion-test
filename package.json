@@ -1,0 +1,36 @@
+{
+  "name": "iv-animate",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.ts",
+    "test": "bun test",
+    "test:render": "bun test src/render.test.ts",
+    "render:local": "bun scripts/render-local.ts",
+    "render:test": "bun scripts/render-test.ts",
+    "dev": "remotion studio",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.844.0",
+    "@remotion/animation-utils": "^4.0.323",
+    "@remotion/bundler": "4.0.323",
+    "@remotion/cli": "4.0.323",
+    "@remotion/google-fonts": "^4.0.323",
+    "@remotion/renderer": "4.0.323",
+    "remotion": "4.0.323"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.18",
+    "@types/node": "^24.0.12",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
+  }
+}

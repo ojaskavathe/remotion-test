@@ -1,0 +1,1 @@
+Make a strikethrough animation of the word `Rewrite`. About 3s long.

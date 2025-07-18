@@ -1,0 +1,8 @@
+{
+  "code": "import React from 'react'; import { Composition, registerRoot } from 'remotion'; import { AbsoluteFill } from 'remotion'; const MyComp = () => <AbsoluteFill style={{backgroundColor: 'green', justifyContent: 'center', alignItems: 'center', fontSize: '4rem', color: 'white'}}>S3 Upload Test!</AbsoluteFill>; export const RemotionRoot = () => <Composition id=\"MyComp\" component={MyComp} durationInFrames={90} fps={30} width={1920} height={1080} />; registerRoot(RemotionRoot);",
+  "destination_blob": {
+    "region": "us-west-2",
+    "bucket": "iv-stage-pro-dev",
+    "key": "ojas_sandbox/iv-animate/s3-test.mp4"
+  }
+} 
